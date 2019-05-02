@@ -1,4 +1,4 @@
-package hive.entity.user;
+package hive.ishigami.entity.user;
 
 import org.hibernate.annotations.Check;
 import org.hibernate.annotations.DynamicUpdate;
