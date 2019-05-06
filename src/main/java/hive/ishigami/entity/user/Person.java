@@ -23,7 +23,7 @@ public class Person {
   public Person() {
   }
 
-  public Person(String name) {
+  public Person(final String name) {
     this.name = name;
   }
 
