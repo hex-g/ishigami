@@ -27,13 +27,13 @@ public class User {
   public User() {
   }
 
-  public User(String username, String password, String role) {
+  public User(final String username, final String password, final String role) {
     this.username = username;
     this.password = password;
     this.role = role;
   }
 
-  public void setId(Integer id) {
+  public void setId(final Integer id) {
     this.id = id;
   }
 
@@ -45,7 +45,7 @@ public class User {
     return username;
   }
 
-  public void setUsername(String username) {
+  public void setUsername(final String username) {
     this.username = username;
   }
 
@@ -53,7 +53,7 @@ public class User {
     return password;
   }
 
-  public void setPassword(String password) {
+  public void setPassword(final String password) {
     this.password = password;
   }
 
@@ -61,7 +61,7 @@ public class User {
     return role;
   }
 
-  public void setRole(String role) {
+  public void setRole(final String role) {
     this.role = role;
   }
 
