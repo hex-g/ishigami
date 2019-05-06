@@ -27,7 +27,7 @@ public class Person {
     this.name = name;
   }
 
-  public void setId(Integer id) {
+  public void setId(final Integer id) {
     this.id = id;
   }
 
@@ -39,7 +39,7 @@ public class Person {
     return user;
   }
 
-  public void setUser(User user) {
+  public void setUser(final User user) {
     this.user = user;
   }
 
@@ -47,7 +47,7 @@ public class Person {
     return name;
   }
 
-  public void setName(String name) {
+  public void setName(final String name) {
     this.name = name;
   }
 
