@@ -23,23 +23,23 @@ public class Pedagogue {
   public Pedagogue() {
   }
 
+  public Pedagogue(final String rm) {
+    this.rm = rm;
+  }
+  
   public Integer getId() {
     return id;
   }
 
-  public void setId(Integer id) {
+  public void setId(final Integer id) {
     this.id = id;
-  }
-
-  public Pedagogue(String rm) {
-    this.rm = rm;
   }
 
   public Person getPerson() {
     return person;
   }
 
-  public void setPerson(Person person) {
+  public void setPerson(final Person person) {
     this.person = person;
   }
 
@@ -47,7 +47,7 @@ public class Pedagogue {
     return rm;
   }
 
-  public void setRm(String rm) {
+  public void setRm(final String rm) {
     this.rm = rm;
   }
 }
