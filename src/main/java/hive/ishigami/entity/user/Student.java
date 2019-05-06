@@ -23,7 +23,7 @@ public class Student {
   public Student() {
   }
 
-  public Student(String ra) {
+  public Student(final String ra) {
     this.ra = ra;
   }
 
@@ -31,7 +31,7 @@ public class Student {
     return id;
   }
 
-  public void setId(Integer id) {
+  public void setId(final Integer id) {
     this.id = id;
   }
 
@@ -39,7 +39,7 @@ public class Student {
     return person;
   }
 
-  public void setPerson(Person person) {
+  public void setPerson(final Person person) {
     this.person = person;
   }
 
@@ -47,7 +47,7 @@ public class Student {
     return ra;
   }
 
-  public void setRa(String ra) {
+  public void setRa(final String ra) {
     this.ra = ra;
   }
 }
